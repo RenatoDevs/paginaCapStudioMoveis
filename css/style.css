@@ -39,7 +39,6 @@ body{
     overflow: hidden;
 }
 .left{
-    background-color: violet;
     position: relative;
     display: flex;
     justify-content: center;
@@ -61,7 +60,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
 .logo{
     position: relative;
@@ -79,10 +77,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     margin-top: 30px;
 }
-
 .textBox input{
     width: 90%;
     height: 30px;
@@ -94,7 +91,7 @@ body{
 }
 .textBox p{
     color: rgb(0, 0, 0);
-    font-size: 2em;
+    font-size: 1.5em;
     text-shadow: 0px 0px 10px rgb(0, 0, 0);
     margin: 10px 0 ;
     font-weight:bold;
@@ -102,7 +99,6 @@ body{
     margin-bottom: 30px;
     padding: 10px;   
 }
-
 a{
     width: 90%;
     height: 30px;
@@ -116,13 +112,12 @@ a{
     border-radius: 0 0  20px 20px ;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.61);
 }
-
 .atribuicoa{
     width: 80%;
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 0px 10px;
+    gap: 5px 10px;
 }
 span{
     background: rgba(255, 255, 255, 0.8);
@@ -136,7 +131,6 @@ span{
 .atribuicoa a{
     width: 100%;   
 }
-
 @media (max-width:999px) {
 
 
@@ -146,11 +140,9 @@ span{
         grid-template-columns:repeat(1,1fr) ;
         position: relative;
     }
-
     .logo{
         position: relative;
     }
-
     .left{
         position: relative;
         height: 100%;
@@ -161,6 +153,20 @@ span{
         height: 90%;
         margin: 5%;
         border-radius: 10px;
+    }a{
+        width: 100%;
     }
-    
+    span{
+        width: 100%;
+    }
+    .textBox input{
+        width: 100%;
+    }
+    .textBox{
+        width: 100%;
+    }
+    .atribuicoa{
+        width: 100%;
+        padding: 5px;
+    }
 }
